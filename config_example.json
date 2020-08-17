@@ -31,9 +31,9 @@
 
     "website": {
         "enabled": true,
-        "host": "0.0.0.0",
+        "host": "pool.bitcoinrand.com",
         "port": 80,
-        "stratumHost": "cryppit.com",
+        "stratumHost": "pool.bitcoinrand.com",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
