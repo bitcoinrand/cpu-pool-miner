@@ -1,0 +1,5 @@
+{
+    "name": "Bitcoinrand",
+    "symbol": "BZAR",
+    "algorithm": "sha256"
+}
