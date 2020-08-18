@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "blocksbzar-a267"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "blocksbzar-a267"
+    spec:
+      containers:
+        - name: "blocksbzar-a267"
+          image: "miningpool.azurecr.io/blocksbzar"
+          ports:
+          - containerPort: 3008
