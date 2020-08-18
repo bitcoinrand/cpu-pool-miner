@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: "blocksbzar-a267"
+    labels:
+        app: "blocksbzar-a267"
+spec:
+    type: LoadBalancer
+    ports:
+    - port: 3008
+      targetPort: 3008
+      protocol: TCP
+      name: http
+    selector:
+        app: "blocksbzar-a267"
